@@ -1,0 +1,3 @@
+"D:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\fisrt_demo.exe.dir/objects.a
+"D:\Program Files\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\ar.exe" qc CMakeFiles\fisrt_demo.exe.dir/objects.a @CMakeFiles\fisrt_demo.exe.dir\objects1
+"D:\Program Files\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\fisrt_demo.exe.dir/objects.a -Wl,--no-whole-archive -o E:\vscodeprojects\2_demo_cmake_c++\bin\fisrt_demo.exe.exe -Wl,--out-implib,E:\vscodeprojects\2_demo_cmake_c++\bin\libfisrt_demo.exe.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\fisrt_demo.exe.dir\linkLibs.rsp

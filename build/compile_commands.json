@@ -1,0 +1,7 @@
+[
+{
+  "directory": "E:/vscodeprojects/2_demo_cmake_c++/build",
+  "command": "\"D:\\Program Files\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\"   -g -o CMakeFiles\\fisrt_demo.dir\\main.cpp.obj -c E:\\vscodeprojects\\2_demo_cmake_c++\\main.cpp",
+  "file": "E:/vscodeprojects/2_demo_cmake_c++/main.cpp"
+}
+]

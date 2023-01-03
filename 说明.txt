@@ -1,0 +1,4 @@
+使用cmakelists.txt进行build， 调试也可以使用cmake：debug，
+调试步骤：
+1。ctrl+shift+p, 打开编辑面板，command plattete..
+2. 输出cmake， 选择cmake:debug,进行调试即可
