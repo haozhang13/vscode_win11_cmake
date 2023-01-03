@@ -4,7 +4,7 @@
 # compile CXX with D:/Program Files/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/g++.exe
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = @CMakeFiles/fisrt_demo.dir/includes_CXX.rsp
 
 CXX_FLAGS = -g
 

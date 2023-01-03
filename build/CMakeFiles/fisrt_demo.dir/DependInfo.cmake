@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "E:/vscodeprojects/2_demo_cmake_c++/add/myadd.cpp" "CMakeFiles/fisrt_demo.dir/add/myadd.cpp.obj" "gcc" "CMakeFiles/fisrt_demo.dir/add/myadd.cpp.obj.d"
   "E:/vscodeprojects/2_demo_cmake_c++/main.cpp" "CMakeFiles/fisrt_demo.dir/main.cpp.obj" "gcc" "CMakeFiles/fisrt_demo.dir/main.cpp.obj.d"
   )
 

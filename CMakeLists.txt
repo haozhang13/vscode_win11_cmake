@@ -6,8 +6,12 @@
 cmake_minimum_required(VERSION 3.0)
 project(fisrt_demo)
 
+
+include_directories(${PROJECT_SOURCE_DIR}/add)
+
 # 获取路径下所有的.cpp/.c/.cc文件，并赋值给变量中
 aux_source_directory(./ SRC)
+aux_source_directory(./add SRC)
 
 # 给文件名/路径名或其他字符串起别名，用${变量}获取变量内容
 # set(变量 文件名/路径/...)

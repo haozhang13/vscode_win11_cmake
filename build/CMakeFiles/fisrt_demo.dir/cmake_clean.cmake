@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/fisrt_demo.dir/add/myadd.cpp.obj"
+  "CMakeFiles/fisrt_demo.dir/add/myadd.cpp.obj.d"
   "CMakeFiles/fisrt_demo.dir/main.cpp.obj"
   "CMakeFiles/fisrt_demo.dir/main.cpp.obj.d"
   "E:/vscodeprojects/2_demo_cmake_c++/bin/fisrt_demo.exe"

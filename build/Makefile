@@ -128,6 +128,30 @@ fisrt_demo/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fisrt_demo.dir\build.make CMakeFiles/fisrt_demo.dir/build
 .PHONY : fisrt_demo/fast
 
+add/myadd.obj: add/myadd.cpp.obj
+.PHONY : add/myadd.obj
+
+# target to build an object file
+add/myadd.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fisrt_demo.dir\build.make CMakeFiles/fisrt_demo.dir/add/myadd.cpp.obj
+.PHONY : add/myadd.cpp.obj
+
+add/myadd.i: add/myadd.cpp.i
+.PHONY : add/myadd.i
+
+# target to preprocess a source file
+add/myadd.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fisrt_demo.dir\build.make CMakeFiles/fisrt_demo.dir/add/myadd.cpp.i
+.PHONY : add/myadd.cpp.i
+
+add/myadd.s: add/myadd.cpp.s
+.PHONY : add/myadd.s
+
+# target to generate assembly for a file
+add/myadd.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fisrt_demo.dir\build.make CMakeFiles/fisrt_demo.dir/add/myadd.cpp.s
+.PHONY : add/myadd.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -161,6 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... fisrt_demo
+	@echo ... add/myadd.obj
+	@echo ... add/myadd.i
+	@echo ... add/myadd.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
